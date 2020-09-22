@@ -2,8 +2,7 @@ import React, {Component} from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import Main from './components/MainComponent';
-import { Navbar, NavbarBrand } from 'reactstrap';
-import { DISHES } from './shared/dishes';
+
 import { Provider } from 'react-redux';
 import { ConfigureStore } from './redux/configureStore';
 
